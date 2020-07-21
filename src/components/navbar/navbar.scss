@@ -1,0 +1,131 @@
+.navbar {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.title {
+    position: absolute;
+    left: 10px;
+    top: -30px;
+    & img {
+        width: 170px;
+    }
+}
+
+.hamburger {
+    position: absolute;
+    right: 20px;
+    top: .5rem;
+    width: 3rem;
+    z-index: 101;
+    transition: all 2s ease-in-out;
+} 
+
+.height--0 {
+    height:0px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.navbar__links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    top: 60px;
+    height: 0px;
+    align-items: center;
+    transition: height .25s ease-in-out;
+    overflow: hidden;
+}
+
+.isOpen {
+    z-index: 100;
+    height: 90px;
+
+}
+.navbar__links a {
+    text-decoration: none;
+    // color: white;
+}
+.navbar__links span {
+    padding: .75rem;
+}
+
+.navbar__links span:nth-child(1) {
+    padding-top: 2em;
+}
+
+// For tablet
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+    .navbar {
+        margin-bottom: 125px;
+    }
+
+    .landing {
+        & div.landing__text {
+            font-size: 3rem;            
+        }
+
+        & h5.small__text {
+            font-size: 1.2rem;
+            
+        }
+    }
+}
+
+// For Desktop
+@media only screen and (min-width: 769px) {
+    
+    .navbar {
+        margin-bottom: 25px;
+    }
+    .title {
+        & img {
+            top: -30px;
+            width: 170px;
+        }
+    }
+    .hamburger {
+        display: none
+    }
+
+    .navbar__links {
+        // background-color: #000;
+        flex-direction: row;
+        justify-content: flex-end;
+        height: auto;
+        width: auto;
+        cursor: pointer;
+        clip-path: circle(100%);
+        padding-right: 3em;
+        top: 0;
+        position: relative;
+    }
+
+    .navbar__links span {
+        font-size: large;
+        padding: 0.9em; 
+        position: relative;
+    }
+    .navbar__links span:before{
+        content: "";
+        position: absolute;
+        bottom: 8px;
+        width: 0%;
+        height: 2px;
+        left: 50%;
+        background-color: #000;
+        transform: rotateY(90deg);
+        transition: all 0.3s ease-in-out 0s;    
+    }
+    .navbar__links span:hover:before {
+        width: calc(100% - 1.8em);
+        left: 18%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+        transform: rotateY(0deg);
+    }
+
+    .navbar__links span:nth-child(1) {
+        padding-top: 0.9em;
+    }
+}

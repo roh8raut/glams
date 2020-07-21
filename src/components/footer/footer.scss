@@ -1,0 +1,16 @@
+$bg-color: #000;
+
+.footer-container {
+    background-color: $bg-color;
+    color: white;
+
+    & .footer-email-containter {
+        display: flex;
+        flex-direction: column;
+        & .footer-email-termsPolicy{
+             font-size: 10px;
+             margin-top: 5px;
+        }
+    }
+}
+

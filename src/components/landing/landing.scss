@@ -1,0 +1,29 @@
+// video:first-child {
+//     margin-top: 100px;
+// }
+
+.landing {
+    & .landing__text {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    & .small__text {
+        // font-size: 1rem;
+        line-height: 0px;
+        margin-top: 10px;
+    }
+}
+
+// For Tablets
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+
+}
+
+// For Desktop 
+@media only screen and (min-width: 1024px) {
+    .landing {
+        & .landing__text {
+            font-size: 3rem;
+        }
+    }
+}
