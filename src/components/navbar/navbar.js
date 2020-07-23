@@ -15,7 +15,6 @@ function Navbar() {
   return (
     <div className="navbar">
       <span className="title">
-        {" "}
         <img src={logo} alt="Glams" />
       </span>
       <Hamburger clickHandler={clickHandler} btnEle={btnEle} />

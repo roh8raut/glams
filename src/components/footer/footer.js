@@ -9,14 +9,14 @@ const Footer = () => {
     return (
         <div className="footer-container">
             <div className="footer-email-containter">
-                <h6>Share With The World. Real Local Videos. Great Global Friends.</h6>
+                <h6>Glams is coming! Be the first to get the app and share your videos with the world.</h6>
                 <EmailInput />
                 <p className="footer-email-termsPolicy">
-                    By Clicking on the send button, you confirm that u agree to our 
+                    By Clicking on the Submit button, you confirm that you agree to our 
                     <a href={terms} rel="noopener noreferrer" target="_blank"> Terms</a> and 
                     <a href={privacy} rel="noopener noreferrer" target="_blank"> Policies</a>
                 </p>
-            </div>
+            </div> 
         </div>
     )
 }
