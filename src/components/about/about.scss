@@ -33,8 +33,10 @@
 @media only screen and (min-width: 500px) and (max-width: 768px) {
     .aboutus {
         & .aboutus__videos {
-            flex-direction: column;
+            flex-direction: row;
             align-items: center;
+            margin-left: 45px;
+            
             & video {
                 // width: 48%;
                 object-fit: fill;
@@ -49,10 +51,26 @@
 
         & .aboutus__videos {
             order: 0;
+            flex: 1;
+            padding: 0px;
 
-            video {
-                width: auto;
-            }
         }
+        
     }
 }
+
+@media only screen and (min-width: 1400px) {
+    .aboutus {
+
+        & .aboutus__videos {
+            padding: 100px;
+        }
+
+        & .aboutus__text  {
+            font-size: xx-large;
+        }
+    }
+    
+}
+
+

@@ -130,3 +130,39 @@
         padding-top: 0.9em;
     }
 }
+
+@media only screen and (min-width: 1400px) {
+    .navbar {
+        margin-bottom: 50px;
+
+        & .title {
+            & img {
+                width: 210px;
+            }
+        }
+
+        & .navbar__links {
+            & span {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+// @media only screen and (min-width: 5000px) {
+//     .navbar {
+//         margin-bottom: 100px;
+
+//         & .title {
+//             & img {
+//                 width: 400px;
+//             }
+//         }
+        
+//         & .navbar__links {
+//             & span {
+//                 font-size: 5rem;
+//             }
+//         }
+//     }
+// }

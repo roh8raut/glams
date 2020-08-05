@@ -8,7 +8,7 @@ import privacy from '../../assets/Glams_Privacy_Policy.pdf';
 const Footer = () => {
     return (
         <div className="footer-container">
-            <div className="footer-email-containter">
+            <div className="footer-email-container">
                 <h6>Glams is coming! Be the first to get the app and share your videos with the world.</h6>
                 <EmailInput />
                 <p className="footer-email-termsPolicy">

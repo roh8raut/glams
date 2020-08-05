@@ -1,8 +1,6 @@
-// video:first-child {
-//     margin-top: 100px;
-// }
-
 .landing {
+    // min-height: 80vh;
+
     & .landing__text {
         font-size: 1.5rem;
         font-weight: bold;
@@ -12,18 +10,49 @@
         line-height: 0px;
         margin-top: 10px;
     }
+
+    & .video-container {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 // For Tablets
 @media only screen and (min-width: 500px) and (max-width: 768px) {
-
+    .landing {
+        & .video-container {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    }
 }
 
 // For Desktop 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 800px) {
     .landing {
+        
         & .landing__text {
             font-size: 3rem;
+        }
+
+        & .video-container {
+            flex-direction: row;
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .landing {
+        & .landing__text {
+            font-size: 4rem;
+        }
+
+        & .small__text {
+            font-size: 1.8rem;
+        }
+
+        & .video-container {
+            flex-direction: row;
         }
     }
 }

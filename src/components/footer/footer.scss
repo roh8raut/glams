@@ -4,7 +4,7 @@ $bg-color: #000;
     background-color: $bg-color;
     color: white;
 
-    & .footer-email-containter {
+    & .footer-email-container {
         display: flex;
         flex-direction: column;
         & .footer-email-termsPolicy{
@@ -17,4 +17,24 @@ $bg-color: #000;
         }
     }
 }
+
+
+
+@media only screen and (min-width: 1400px) {
+    .footer-container {
+       
+        & .footer-email-container {
+
+            & h6 {
+                font-size: 1.2rem;
+                margin-bottom: 25px;
+            }
+
+            & .footer-email-termsPolicy{
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+
 

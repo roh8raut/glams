@@ -10,9 +10,9 @@ const Landing = () => {
       <div className="landing">
         <div className="landing__text">Share With The World</div>
         <h5 className="small__text">Real Local Videos. Great Global Friends</h5>
-        <div>
+        <div className="video-container">
           {data.videos.map((videoObj, i) => (
-            <Videocard key={i} src={videoObj.url} width="250" height="355" />
+            <Videocard key={i} src={videoObj.url} width="" height="" />
           ))}
         </div>
       </div>

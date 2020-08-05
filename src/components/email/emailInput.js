@@ -25,7 +25,7 @@ const EmailInput = () => {
 
   return (
     <div className="email-input-container">
-      <div style={{ display: "inline-flex", flexDirection: "column" }}>
+      <div style={{display: "flex",flexDirection: "column"}}>
         <input
           ref={emailRef}
           className="email--input"
