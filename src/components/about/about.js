@@ -10,7 +10,7 @@ const About = () => {
         <div className="aboutus container">
             <div className="aboutus__videos">
                 {
-                    data.videos.map((videoObj, i) => videoObj.page === "about" && <Videocard key={i} src={videoObj.url} width="250" height="425" />)
+                    data.videos.map((videoObj, i) => videoObj.page === "about" && <Videocard key={i} src={videoObj.url} poster={videoObj.poster} width="250" height="425" />)
                 }
             </div>
             <div className="aboutus__text container">

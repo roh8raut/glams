@@ -12,7 +12,7 @@ const Landing = () => {
         <h5 className="small__text">Real Local Videos. Great Global Friends</h5>
         <div className="video-container">
           {
-            data.videos.map((videoObj, i) => videoObj.page === "landing" && <Videocard key={i} src={videoObj.url} width="" height="" />)
+            data.videos.map((videoObj, i) => videoObj.page === "landing" && <Videocard key={i} src={videoObj.url} poster={videoObj.poster} width="" height="" />)
           }
         </div>
       </div>
