@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/glams/static/css/main.c511ad43.chunk.css",
+    "main.js": "/glams/static/js/main.8fbe0c53.chunk.js",
+    "main.js.map": "/glams/static/js/main.8fbe0c53.chunk.js.map",
+    "runtime-main.js": "/glams/static/js/runtime-main.be556c4d.js",
+    "runtime-main.js.map": "/glams/static/js/runtime-main.be556c4d.js.map",
+    "static/js/2.4386994e.chunk.js": "/glams/static/js/2.4386994e.chunk.js",
+    "static/js/2.4386994e.chunk.js.map": "/glams/static/js/2.4386994e.chunk.js.map",
+    "index.html": "/glams/index.html",
+    "precache-manifest.a0a22ad56b1c0932fac1f82f35f415b8.js": "/glams/precache-manifest.a0a22ad56b1c0932fac1f82f35f415b8.js",
+    "service-worker.js": "/glams/service-worker.js",
+    "static/css/main.c511ad43.chunk.css.map": "/glams/static/css/main.c511ad43.chunk.css.map",
+    "static/js/2.4386994e.chunk.js.LICENSE.txt": "/glams/static/js/2.4386994e.chunk.js.LICENSE.txt",
+    "static/media/Glams_Privacy_Policy.pdf": "/glams/static/media/Glams_Privacy_Policy.86ae56df.pdf",
+    "static/media/Glams_Terms.pdf": "/glams/static/media/Glams_Terms.dcfedfed.pdf",
+    "static/media/logo.svg": "/glams/static/media/logo.87ab5a92.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be556c4d.js",
+    "static/js/2.4386994e.chunk.js",
+    "static/css/main.c511ad43.chunk.css",
+    "static/js/main.8fbe0c53.chunk.js"
+  ]
+}
