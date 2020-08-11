@@ -16,6 +16,7 @@ const Footer = () => {
                     <a href={terms} rel="noopener noreferrer" target="_blank"> Terms</a> and 
                     <a href={privacy} rel="noopener noreferrer" target="_blank"> Policies</a>
                 </p>
+                <p className="footer__email">Contact Us - hello@glamsapp.com</p>
             </div> 
         </div>
     )
