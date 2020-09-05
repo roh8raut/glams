@@ -25,6 +25,13 @@
 
 }
 
+.footer-email-container {
+    & p.msg {
+        margin: 10px;
+        font-size: 0.8rem;
+    }
+}
+
 @media only screen and (min-width: 769px) {
     .email-input-container {
         & .email--input {
