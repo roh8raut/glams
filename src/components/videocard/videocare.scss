@@ -1,0 +1,31 @@
+video {
+    object-fit: fill;
+    border-radius: 5px;
+}
+
+// For tablet
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+    video {
+        width: 40%;
+        margin: 5%;
+        height: 100%;
+    }
+}
+
+// // For ipad pro 
+// @media only screen and (min-width: 769px) and (max-width: 1025) {
+//     video {
+//          object-fit: fill;
+//          width: 40%;
+//          margin: 5%;
+//          height: 20%;
+//      }
+//  }
+
+// For Desktop
+@media only screen and (min-width: 769px) {
+    video {
+        object-fit: contain;
+        // border-radius: 49px;
+    }
+}
